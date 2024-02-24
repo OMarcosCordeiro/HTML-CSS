@@ -1,0 +1,136 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,opsz,wght@0,6..96,400..900;1,6..96,400.. 900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&display=swap');
+
+:root{
+    --cor1: #F2E6D8;
+    --cor2: #F29849;
+    --cor3: #402516;
+    --cor4: #73482F;
+    --cor5: #A66946;
+
+    --fonte-padrao: arial, verdana, helvetica, sans-serif;
+    --fonte-destaque: "Bodoni Moda", serif; 
+    --fonte-fina: "Jost", sans-serif; 
+
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+    
+}
+
+body {
+    background-color:rgb(240, 239, 239);
+    
+}
+
+header{
+    background-color: #110a06;
+    color: var(--cor1);
+    margin: auto;
+    max-width: 950px;
+    padding: 8px 0px 8px 0px;
+    box-shadow: 3px 3px 7px 0px rgba(0, 0, 0, 0.37);
+    
+
+    
+    }
+    header p{
+        font-size: 8xp;
+        color: var(--cor1);
+        text-align: left;
+        padding-left: 80px;
+        font-family: var(--fonte-padrao);
+
+       
+    }
+nav{
+    background-color: white;
+    margin: auto;
+    max-width: 950px;
+    padding: 30px 0px 30px 0px;
+    box-shadow: 3px 3px 7px 0px rgba(0, 0, 0, 0.37);
+    text-align: right;
+    padding-right: 5px;
+}
+nav p{
+    
+    display: inline-block;
+    padding-right: 100px;
+    font-size: 2em;
+    font-family: var(--fonte-fina);
+    font-weight: 700;
+    color: red;
+       
+    
+    
+    
+}
+nav a{
+    display: inline-block;
+    text-decoration: none;
+    color: #110a06;
+    font-family: var(--fonte-padrao);
+    font-weight: bolder;
+    padding: 8px;
+    font-size: 15px;
+    
+}
+main{
+    background-color: var(--cor1);
+    margin: auto;
+    max-width: 950px;
+    height: 395px;
+    box-shadow: 3px 5px 7px 0px rgba(0, 0, 0, 0.37);
+    padding-bottom: 5px;
+}
+main p, h1{
+    font-size: 2.3em; 
+    text-align: center;
+
+    
+}
+main p{
+    font-size: 15px;
+    padding-top: 45px;
+    padding-right: 130px;
+}
+aside{
+    background-color: rgb(255, 255, 255);
+    margin: auto;
+    text-align: center;
+    max-width: 950px;
+    padding: 18px 0px 18px 0px;
+    box-shadow: 3px 3px 7px 0px rgba(0, 0, 0, 0.37);
+    
+    
+    
+    
+
+}
+
+aside > a{
+
+    background-color: var(--cor1);
+    display: inline-block;
+    box-shadow: 3px 3px 7px 0px rgba(0, 0, 0, 0.37);
+    
+}
+aside .mulhe{
+    
+    padding: 70px;
+    
+}
+aside .acesso{
+  
+    padding: 66px;
+}
+aside .ho{
+    
+    padding: 70px;
+}
+
